@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendrix Personal Portfolio Website</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <!-- Welcome Sign -->
+    <div id="welcome-sign" class="welcome-animation">
+        <h1>Welcome to Kendrix's Portfolio</h1>
+    </div>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Information Technology Student and Aspiring Network Security Engineer</p>
+                <h1>Hi, I'm <span>Kendrix</span> Ngayi <br> From Atlanta, Georgia</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_1246.jpeg" alt="Description of the image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there, I'm Kendrix Ngayi, an aspiring Network Security Engineer from Atlanta, Georgia, currently pursuing a Bachelor of Science in Information Technology with a concentration in Cyber Security at Kennesaw State University. I have a strong foundation in hardware and software concepts, web design, and programming principles. I am proficient in entry-level Python and Java, skilled in HTML website design with basic CSS knowledge, and familiar with responsive design principles. I also have experience working with various operating systems, including Windows, CentOS, and Kali Linux, and have a solid understanding of PC assembly, troubleshooting, and hardware maintenance. I excel in self-study, efficient resource use, and technical research.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Form Section -->
+    <div id="login">
+        <div class="container">
+            <h1 class="sub-title">Login</h1>
+            <form action="/login" method="POST" class="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
